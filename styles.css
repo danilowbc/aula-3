@@ -1,0 +1,107 @@
+/*@font-face {
+    font-family: 'OpenSansLight';
+    src: url('fonts/fonts/OpenSans-Light-webfont.eot');
+    src: url('fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Light-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Light-webfont.svg#OpenSansLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+} */
+
+span {
+    background-color: lightblue;
+}
+
+main p {
+    background-color: lightcoral;
+    width: fit-content;
+    margin: 15px auto;
+    padding: 15px;
+
+}
+
+/* margin: TOPO DIREITA BAIXO ESQUERDA*/
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #2be259;
+    padding: 15px 10px;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 90px;
+}
+
+header nav {
+    height: fit-content;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    margin-top: 60px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer p {
+    background-color: gray;
+
+    text-align: center;
+    margin-bottom: 0;
+    position: relative;
+    width: 100%;
+}
+
+article {
+    width: 25%;
+    background-color: #e4e4e4;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px 0px;
+}
+
+article h2 {
+    text-align: center;
+}
+
+article img {
+    width: 80%;
+    margin: auto;
+    display: block;
+    
+}
+
+h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+
+section {
+    border-top: 1px #eb0d0d;
+    margin: 0 5px;
+    display: flex;
+    justify-content: space-around;
+
+}
